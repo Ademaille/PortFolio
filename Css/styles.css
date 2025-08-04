@@ -35,9 +35,9 @@ li a {
 }
 
 a:hover {
-    color: linear-gradient(#696484, #8788ba);
     opacity: 0.5;
 }
+
 /* -ACCUEIL- */
 /* Styles du gros titre sur la page d'Accueil */
 h1 {
