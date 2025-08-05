@@ -13,15 +13,22 @@ const Jeux = [
 const container = document.createElement('div');
 container.className = "dessin";
 
-
   const h2 = document.createElement('h2');
   h2.textContent = Animés;
   container.appendChild(h2);
 
-  const dessinContainer = document.createElement('div');
-  dessinContainer.className = "dessin-container";
-  dessinContainer.id = Animés;
+  const dessinContainer1 = document.createElement('div');
+  dessinContainer1.className = "dessin-container";
+  dessinContainer1.id = Animés;
+  
+  const h2a = document.createElement('div');
+  h2a.textContent = Jeux;
+  container.appendChild(h2a)
 
+  const dessinContainer2 = document.createElement('div');
+  dessinContainer2.className = "dessin-container";
+  dessinContainer2.id = Jeux;
+  
   images.forEach(image => {
     const figure = document.createElement('figure');
 
@@ -35,6 +42,8 @@ container.className = "dessin";
 
     const figcaption = document.createElement('figcaption');
     figcaption.textContent = image.caption;
+
+
 
     a.appendChild(img);
     figure.appendChild(a);
