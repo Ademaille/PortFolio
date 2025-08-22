@@ -133,6 +133,7 @@ h2 {
 .dessin {
     display:grid;
     justify-content: stretch;
+    flex-direction: column;
 }
 
 /* Div des rangés des images de la page Dessin */
@@ -152,6 +153,10 @@ h2 {
 
 .lien-img:hover{
     opacity: 0.7;
+}
+
+.lien-img2 {
+    display: flex;
 }
 
 /* Legende en-dessous des dessins */
@@ -207,4 +212,14 @@ footer {
 .yt:hover, .insta:hover {
     background: linear-gradient(#696484, #8788ba);
     opacity: 0.5;
+}
+
+/* Bouton haut de page */
+
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
 }
